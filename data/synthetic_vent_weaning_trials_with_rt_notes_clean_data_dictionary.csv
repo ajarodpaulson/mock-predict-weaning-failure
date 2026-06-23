@@ -34,7 +34,7 @@ vent_day,Day of invasive ventilation at today's planned trial.,baseline_or_admin
 days_since_first_weaning_trial,Days since the first weaning attempt.,baseline_or_administrative,0.0 to 21.0
 airway_type,Artificial airway type.,baseline_or_administrative,ETT; tracheostomy
 tracheostomy_present,Whether a tracheostomy is present.,baseline_or_administrative,No; Yes
-planned_wean_minutes_today,Planned duration of today's weaning trial in minutes.,outcome_or_after_trial,120; 180; 240; 30; 360; 480; 60; 90
+planned_wean_minutes_today,Planned duration of today's weaning trial in minutes.,planned_trial,120; 180; 240; 30; 360; 480; 60; 90
 planned_weaning_method_today,Planned weaning method for today's trial.,outcome_or_after_trial,capping_trial; cpap; high_flow_trach; pressure_support; speaking_valve; t_piece; trach_collar
 planned_pressure_support_cmH2O,Planned pressure support setting for today's trial when applicable.,planned_trial,5.0 to 17.0
 planned_peep_cmH2O,Planned PEEP setting for today's trial.,planned_trial,0.0 to 13.0
@@ -218,9 +218,6 @@ pressure_support_changed_during_trial,Whether pressure support was changed durin
 fio2_increased_during_trial,Whether FiO2 was increased during today's trial.,early_trial,No; Yes
 high_flow_added_during_trial,Whether high flow was added during today's trial.,early_trial,No; Yes
 actual_wean_minutes_today,Actual duration of today's weaning trial in minutes.,outcome_or_after_trial,2.0 to 379.0
-wean_completion_percent_today,Actual duration as a percentage of planned duration.,outcome_or_after_trial,4.4 to 120.0
-completed_target_today,Whether the full planned trial duration was completed.,outcome_or_after_trial,No; Yes
-failed_weaning_trial,Target label: Yes if actual duration was less than half of planned duration; otherwise No.,target,No; Yes
 trial_stopped_early_today,Whether today's trial stopped before the planned time.,outcome_or_after_trial,No; Yes
 trial_stopped_reason_today,Documented reason today's trial stopped or completed.,outcome_or_after_trial,anxiety; completed; copious_secretions; desaturation; fatigue; hemodynamic_instability; other; tachypnea
 post_trial_fatigue_score,Post-trial fatigue score from 0 to 10.,outcome_or_after_trial,0; 1; 10; 2; 3; 4; 5; 6; 7; 8; 9
